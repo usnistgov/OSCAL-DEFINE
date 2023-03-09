@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-OSCAL SSP authors need the ability to export content from a full SSP, suitable for customers to import into another SSP, without exposing all content of the full SSP. At a minimum, this exported content should include customer responsibility statements associated with components and control definition statements. When the SSP author uses optional syntax to define customer-consumable content about what is inherited, this content must also be included.
+OSCAL SSP authors need the ability to export particular content pertaining to controls that can be inherited by another system, without exposing all content of the full SSP or of those inheritable controls. This exported content must be suitable for customers to import into a new SSP of the system which inherits controls.
 
 - [Original Issue](https://github.com/usnistgov/OSCAL/issues/722)
 
