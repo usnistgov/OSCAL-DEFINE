@@ -1,6 +1,6 @@
 # Define: An Approach to Communicating Responsibilities and Inheritance in OSCAL
 
-> Status: Initiation
+> Status: Discovery
 
 ## Problem Statement
 
