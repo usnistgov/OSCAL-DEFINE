@@ -25,6 +25,10 @@ The output of each effort is:
 
 - A research effort takes place in increments called spirals.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/107055718/225630406-ab1a064d-5f5d-4053-b80f-7d1ae793f8cd.png">
+</p>
+
 ### Explanation
 
 - At the end of Discovery, a formal presentation will be made.
