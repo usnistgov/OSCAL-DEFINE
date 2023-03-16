@@ -10,11 +10,13 @@ OSCAL SSP authors need the ability to export particular content pertaining to co
 
 ## Spirals
 
-- Not Started
+- [Spiral 1: Use Cases](2022-07-05.001.md)
+- [Spiral 2: Mapping and Gap Analysis](2022-07-05.002.md)
+- [Spiral 3: Export Examples](2023-03-08.003.md)
 
 ## Summary
 
-N/A
+The current status of this effort is to develop export examples in preparation for future spirals with the community to define a model.
 
 ## Presented
 
