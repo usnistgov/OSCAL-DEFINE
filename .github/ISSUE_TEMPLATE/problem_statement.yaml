@@ -1,0 +1,14 @@
+name: Problem Statement
+description: Please provide a statement of the problem to be considered for research.
+labels: ['Step 1 - Initiation']
+body:
+  - type: markdown
+    attributes:
+      value: Provide as much detail as possible to add context.  We also encourage examples or demonstrations of the topic, and any input outlining a solution or recommendation.
+  - type: textarea
+    id: problem-statement-text
+    attributes:
+      label: Problem Statement
+      description: Please enter the problem statement
+    validations:
+      required: true
