@@ -12,6 +12,7 @@
 | ------------------------------- | ----------------------------------- |
 | Current Spiral Sequence Number  | [YYYY-MM-DD.002](YYYY-MM-DD.002.md) |
 | Previous Spiral Sequence Number | [YYYY-MM-DD.001](YYYY-MM-DD.001.md) |
+| Next Spiral Sequence Number     | [YYYY-MM-DD.003](YYYY-MM-DD.003.md) |
 | GitHub Project Link             | `Content Here`                      |
 | GitHub Issue #                  | `Content Here`                      |
 | Author(s)                       | `Content Here`                      |
@@ -83,16 +84,6 @@
 # Validation
 
 `Content Here`
-
-# Executive
-
-`Content Here`
-
-| Element                     | Response            |
-| --------------------------- | ------------------- |
-| Disposition                 | `Content Here`      |
-| Concurrence Recorded        | `Content Here`      |
-| Next Spiral Sequence Number | `Content LINK Here` |
 
 # References
 

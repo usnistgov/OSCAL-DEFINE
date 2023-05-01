@@ -64,7 +64,7 @@ We welcome contributions to improve.
 
 4. Ensure that the next increment is in numerical order, based on the last increment completed.
 
-5. If this is not the first spiral, please edit the prior spiral and add the new increment under the Executive heading near the end of the markdown file in the previous spiral.  The next few steps assume the current spiral is `002` and the previous is `001`.
+5. If this is not the first spiral, please edit the prior spiral and add the new sequence identifier near the top of the markdown file in the previous spiral.  The next few steps assume the current spiral is `002` and the previous is `001`.
 
     `| Next Spiral Sequence Number | [YYYY-MM-DD.002](YYYY-MM-DD.002.md)                              |`
 
