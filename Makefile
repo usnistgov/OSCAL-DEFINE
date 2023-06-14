@@ -1,12 +1,8 @@
-SHELL:=/usr/bin/env bash
-
-GEN_SUPPORT_DIR:=generated
-
 .PHONY: documentation
 documentation:
-	marp --pdf --allow-local-files */*/2*.md
+	marp --pdf --allow-local-files -o generated -I research-2023
 
 .PHONY: clean
 clean:
-	rm -f generated/*
+	rm -rf generated/*
 
