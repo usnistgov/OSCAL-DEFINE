@@ -15,11 +15,11 @@ The mapping model has been available through the development branch, and there a
 ## Spirals
 
 - [Spiral 1: Consolidation of Related Input](2023-04-28.001.md)
-
+- [Spiral 2: Mapping Model Qualifier and Provenance Tag Change Requests](2023-06-29.002.md)
 
 ## Summary
 
-The current status of this effort is to develop a draft of model revisions suitable for a development change request.
+The current status of this effort is to create change requests for tags/assemblies to support more contextual mapping capability, based on content in Spiral 1.
 
 ## Presented
 
