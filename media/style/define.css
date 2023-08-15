@@ -3,7 +3,7 @@
 @import 'default';
 
 section {
-    background-image: url("./img/background.png");
+    background-image: url("../media/img/background.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -12,11 +12,11 @@ section {
 }
 
 section.intro {
-    background-image: url("./img/intro.png");
+    background-image: url("../media/img/intro.png");
 }
 
 section.topic {
-    background-image: url("./img/section.png");
+    background-image: url("../media/img/section.png");
 }
 
 section.topic h1 {
