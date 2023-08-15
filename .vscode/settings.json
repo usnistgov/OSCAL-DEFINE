@@ -1,0 +1,5 @@
+{
+    "markdown.marp.themes": [
+      "./media/style/define.css"
+    ]
+  }

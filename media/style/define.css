@@ -1,0 +1,68 @@
+/* @theme define */
+
+@import 'default';
+
+section {
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    font-size: 1.2em;
+}
+
+section.intro {
+    background-image: url("./img/intro.png");
+}
+
+section.topic {
+    background-image: url("./img/section.png");
+}
+
+section.topic h1 {
+    position: absolute;
+    font-size: 4em;
+    top: 250px;
+    left : 350px;
+    color: #feb420;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+h2 {
+    color: #012950;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #0157ad;
+    font-size: 2em;
+}
+
+li {
+    color: #011c37;
+    font-size: 1.5em;
+}
+
+strong {
+    color: #004fa8;
+}
+
+header {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 65%;
+    left:10px;
+    top:0;
+    padding:10px;
+}
+
+:root {
+    
+}
