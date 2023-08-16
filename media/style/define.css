@@ -61,7 +61,11 @@ p {
     margin-top: 1em;
 }
 
+
 blockquote p {
+    color: #FF8C00;
+    font-weight: bold;
+    font-style: italic;
     text-align: left;
     font-size: 1.5em;
 }
