@@ -25,6 +25,8 @@ section.topic {
     background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/section.png?raw=true");
 }
 
+
+
 section.topic h1 {
     position: absolute;
     font-size: 4em;
@@ -63,7 +65,7 @@ p {
 
 
 blockquote p {
-    color: #FF8C00;
+    /* color: #FF8C00; */
     font-weight: bold;
     font-style: italic;
     text-align: left;
@@ -83,6 +85,37 @@ header {
     left:10px;
     top:0;
     padding:10px;
+}
+
+
+section.code pre {
+    border: 4px solid #000a61;
+    background-color: #e6f8ff;
+    width: 30%;
+    float: right;
+    position: absolute;
+    left: 800px;
+}
+
+section.code ul,p {
+    width: 60%;
+    text-align: left;
+}
+
+section.code blockquote p {
+    color: #737373;
+    font-style: italic;
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+section.reference:last-child a {
+    font-size: .5em;
+    font-style: italic;
+    position:absolute;
+    top: 675px;
 }
 
 :root {
