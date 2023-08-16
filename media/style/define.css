@@ -70,6 +70,7 @@ blockquote p {
     font-style: italic;
     text-align: left;
     font-size: 1.5em;
+    width: 100%;
 }
 
 strong {
@@ -97,7 +98,10 @@ section.code pre {
     left: 800px;
 }
 
-section.code ul,p {
+section.code ul,
+section.code p,
+section.code h2,
+section.code li {
     width: 60%;
     text-align: left;
 }
@@ -109,6 +113,7 @@ section.code blockquote p {
     font-size: 1.5em;
     margin: 0;
     padding: 0;
+    width: 60%;
 }
 
 section.reference:last-child a {
