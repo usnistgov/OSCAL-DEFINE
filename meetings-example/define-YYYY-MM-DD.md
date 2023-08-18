@@ -67,6 +67,24 @@ paginate: true
 
 ---
 
+# Demonstration Slide
+
+<!-- _class: code reference -->
+## Code Slide
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+```diff
+Code Section
+
+++ Added
+-- Removed
+```
+
+---
+
 # Discussion
 
 ## Contact us:
