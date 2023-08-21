@@ -1,0 +1,124 @@
+name: Problem Statement
+description: Please provide a statement of the problem to be considered for research.
+labels: ['Step 1 - Initiation']
+body:
+  - type: markdown
+    attributes:
+      value: A spiral must be in support of an approved research effort.  If a research effort has not started, you should start by creating a [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
+
+
+
+  - type: input
+    id: github-research-effort
+    attributes:
+      label: OSCAL DEFINE Research Effort Link
+      description: Provide a link to the associated research effort issue.
+      placeholder: ""
+    validations:
+      required: true
+
+  - type: input
+    id: github-project
+    attributes:
+      label: GitHub Project Link
+      description: Typically, a spiral relates to an existing project.  OSCAL is the default below.
+      placeholder: https://github.com/usnistgov/OSCAL
+
+  - type: input
+    id: authors
+    attributes:
+      label: Author(s)
+      description: If you know the expected authors of this spiral, provide information below.
+      placeholder: Enter names here, if known.
+
+
+
+  - type: markdown
+    attributes:
+      value: The following fields should be completed **BEFORE** starting a spiral.
+
+  - type: textarea
+    id: focus
+    attributes:
+      label: Focus
+      description: Provide a few sentences that describe the focus of the spiral.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Provide any scope, constraints or requirements that apply to this spiral.
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Provide a few sentences that describe any related background information for the spiral.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: The following fields are typically completed **DURING** the spiral, and may be left blank.
+
+  - type: textarea
+    id: analysis
+    attributes:
+      label: Analysis
+      description: This should contain analysis of the outcome.
+    validations:
+      required: false
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: This should contain recommendations related to the analysis.
+    validations:
+      required: false
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference
+      description: This should contain references related to the spiral.
+    validations:
+      required: false
+
+
+
+  - type: markdown
+    attributes:
+      value: The following fields are typically completed once information is available.
+
+  - type: input
+    id: current-spiral-sequence-number
+    attributes:
+      label: Current Spiral Sequence Number
+      description: You can leave this blank if a current number is not available.
+      placeholder: YYYY-MM-DD.001.md
+
+  - type: input
+    id: previous-spiral-sequence-number
+    attributes:
+      label: Previous Spiral Sequence Number
+      description: You can leave this blank if a previous number is not available.
+      placeholder: YYYY-MM-DD.001.md
+
+  - type: input
+    id: next-spiral-sequence-number
+    attributes:
+      label: Next Spiral Sequence Number
+      description: You can leave this blank if a next number is not available.
+      placeholder: YYYY-MM-DD.001.md
+
+
+
+
+
+
+
