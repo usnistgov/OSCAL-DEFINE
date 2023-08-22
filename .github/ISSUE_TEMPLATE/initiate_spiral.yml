@@ -1,5 +1,6 @@
 name: Spiral Issue
 description: This issue is used to initiate a spiral as part of an approved research effort.
+title: "[Spiral]: "
 labels: ['Spiral']
 body:
   - type: markdown

@@ -1,5 +1,6 @@
 name: Problem Statement
 description: Please provide a statement of the problem to be considered for research.
+title: "[Research Effort]: "
 labels: ['Step 1 - Initiation']
 body:
   - type: markdown
