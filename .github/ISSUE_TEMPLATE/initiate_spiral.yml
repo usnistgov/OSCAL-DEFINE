@@ -4,13 +4,15 @@ labels: ['Spiral']
 body:
   - type: markdown
     attributes:
-      value: A spiral must be in support of an approved research effort.  If a research effort has not started, you should start by creating a [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
+      value: |
+        A spiral must be in support of an approved research effort.  
+        If a research effort has not started, you should start by creating a 
+        [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
   - type: input
     id: github-research-effort
     attributes:
       label: OSCAL DEFINE Research Effort Link
       description: Provide a link to the associated research effort issue.
-      placeholder: ""
     validations:
       required: true
   - type: input
@@ -61,22 +63,16 @@ body:
     attributes:
       label: Analysis
       description: This should contain analysis of the outcome.
-    validations:
-      required: false
   - type: textarea
     id: recommendation
     attributes:
       label: Recommendation
       description: This should contain recommendations related to the analysis.
-    validations:
-      required: false
   - type: textarea
     id: reference
     attributes:
       label: Reference
       description: This should contain references related to the spiral.
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: The following fields are typically completed once information is available.
@@ -86,21 +82,15 @@ body:
       label: Current Spiral Sequence Number
       description: You can leave this blank if a current number is not available.
       placeholder: YYYY-MM-DD.001.md
-    validations:
-      required: false
   - type: input
     id: previous-spiral-sequence-number
     attributes:
       label: Previous Spiral Sequence Number
       description: You can leave this blank if a previous number is not available.
       placeholder: YYYY-MM-DD.001.md
-    validations:
-      required: false
   - type: input
     id: next-spiral-sequence-number
     attributes:
       label: Next Spiral Sequence Number
       description: You can leave this blank if a next number is not available.
       placeholder: YYYY-MM-DD.001.md
-    validations:
-      required: false
