@@ -1,6 +1,6 @@
-name: Problem Statement
-description: Please provide a statement of the problem to be considered for research.
-labels: ['Step 1 - Initiation']
+name: Spiral Issue
+description: This issue is used to initiate a spiral as part of an approved research effort.
+labels: ['Spiral']
 body:
   - type: markdown
     attributes:
@@ -21,15 +21,19 @@ body:
     id: github-project
     attributes:
       label: GitHub Project Link
-      description: Typically, a spiral relates to an existing project.  OSCAL is the default below.
+      description: Typically, a spiral relates to an existing project. The default project is OSCAL (listed below). Please provide the URL of the targeted project if different than core OSCAL.
       placeholder: https://github.com/usnistgov/OSCAL
+    validations:
+      required: true
 
   - type: input
     id: authors
     attributes:
       label: Author(s)
-      description: If you know the expected authors of this spiral, provide information below.
+      description: If you know the expected authors of this spiral, provide the information below.
       placeholder: Enter names here, if known.
+    validations:
+      required: true
 
 
 
@@ -63,7 +67,7 @@ body:
 
   - type: markdown
     attributes:
-      value: The following fields are typically completed **DURING** the spiral, and may be left blank.
+      value: The following fields are typically completed **DURING** the spiral, and may be left blank when opening this spiral issue.
 
   - type: textarea
     id: analysis
@@ -101,6 +105,8 @@ body:
       label: Current Spiral Sequence Number
       description: You can leave this blank if a current number is not available.
       placeholder: YYYY-MM-DD.001.md
+    validations:
+      required: false
 
   - type: input
     id: previous-spiral-sequence-number
@@ -108,6 +114,8 @@ body:
       label: Previous Spiral Sequence Number
       description: You can leave this blank if a previous number is not available.
       placeholder: YYYY-MM-DD.001.md
+    validations:
+      required: false
 
   - type: input
     id: next-spiral-sequence-number
@@ -115,7 +123,8 @@ body:
       label: Next Spiral Sequence Number
       description: You can leave this blank if a next number is not available.
       placeholder: YYYY-MM-DD.001.md
-
+    validations:
+      required: false
 
 
 
