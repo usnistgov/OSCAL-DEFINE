@@ -5,9 +5,6 @@ body:
   - type: markdown
     attributes:
       value: A spiral must be in support of an approved research effort.  If a research effort has not started, you should start by creating a [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
-
-
-
   - type: input
     id: github-research-effort
     attributes:
@@ -16,7 +13,6 @@ body:
       placeholder: ""
     validations:
       required: true
-
   - type: input
     id: github-project
     attributes:
@@ -25,7 +21,6 @@ body:
       placeholder: https://github.com/usnistgov/OSCAL
     validations:
       required: true
-
   - type: input
     id: authors
     attributes:
@@ -34,13 +29,9 @@ body:
       placeholder: Enter names here, if known.
     validations:
       required: true
-
-
-
   - type: markdown
     attributes:
       value: The following fields should be completed **BEFORE** starting a spiral.
-
   - type: textarea
     id: focus
     attributes:
@@ -48,7 +39,6 @@ body:
       description: Provide a few sentences that describe the focus of the spiral.
     validations:
       required: true
-
   - type: textarea
     id: requirements
     attributes:
@@ -56,7 +46,6 @@ body:
       description: Provide any scope, constraints or requirements that apply to this spiral.
     validations:
       required: true
-
   - type: textarea
     id: background
     attributes:
@@ -64,11 +53,9 @@ body:
       description: Provide a few sentences that describe any related background information for the spiral.
     validations:
       required: true
-
   - type: markdown
     attributes:
       value: The following fields are typically completed **DURING** the spiral, and may be left blank when opening this spiral issue.
-
   - type: textarea
     id: analysis
     attributes:
@@ -76,7 +63,6 @@ body:
       description: This should contain analysis of the outcome.
     validations:
       required: false
-
   - type: textarea
     id: recommendation
     attributes:
@@ -84,7 +70,6 @@ body:
       description: This should contain recommendations related to the analysis.
     validations:
       required: false
-
   - type: textarea
     id: reference
     attributes:
@@ -92,13 +77,9 @@ body:
       description: This should contain references related to the spiral.
     validations:
       required: false
-
-
-
   - type: markdown
     attributes:
       value: The following fields are typically completed once information is available.
-
   - type: input
     id: current-spiral-sequence-number
     attributes:
@@ -107,7 +88,6 @@ body:
       placeholder: YYYY-MM-DD.001.md
     validations:
       required: false
-
   - type: input
     id: previous-spiral-sequence-number
     attributes:
@@ -116,7 +96,6 @@ body:
       placeholder: YYYY-MM-DD.001.md
     validations:
       required: false
-
   - type: input
     id: next-spiral-sequence-number
     attributes:
@@ -125,9 +104,3 @@ body:
       placeholder: YYYY-MM-DD.001.md
     validations:
       required: false
-
-
-
-
-
-
