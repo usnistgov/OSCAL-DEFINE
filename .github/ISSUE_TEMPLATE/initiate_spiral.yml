@@ -5,7 +5,7 @@ labels: ['Spiral']
 body:
   - type: markdown
     attributes:
-      value: A spiral must be in support of an approved research effort.  If a research effort has not started, you should start by creating a [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
+      value: A spiral must be in support of an approved research effort.  If a research effort has not started, you should start by creating a [problem statement issue](https://github.com/usnistgov/OSCAL-DEFINE/issues/new/choose).
   - type: input
     id: github-research-effort
     attributes:

@@ -22,7 +22,7 @@ The output of each effort is:
 ### Initiation
 
 - A problem, challenge or concern is identified, reviewed and prioritized for Discovery.
-- The threshold for this step is very low, and simply requires [opening an issue with a problem statement](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml).
+- The threshold for this step is very low, and simply requires [opening an issue with a problem statement](https://github.com/usnistgov/OSCAL-DEFINE/issues/new/choose).
 - Once an issue has been approved for a research effort, increments of work are ready to begin as a part of Discovery.
 ### Discovery (Spirals)
 
@@ -47,7 +47,7 @@ The output of each effort is:
 
 - [Attend the OSCAL DEFINE Meetings](https://pages.nist.gov/OSCAL/contribute/define-meeting/)
 - [Review current research efforts](https://github.com/usnistgov/OSCAL-DEFINE/tree/main/research-2023)
-- [Open an issue with a problem statement](https://github.com/usnistgov/OSCAL-DEFINE/issues/new?assignees=&labels=Step+1+-+Initiation&projects=&template=problem_statement.yaml)
+- [Open an issue with a problem statement](https://github.com/usnistgov/OSCAL-DEFINE/issues/new/choose)
 
 More documentation can be found in our [Getting Started](getting-started/) folder.  This will guide you through the process and provide information for conducting a successful, collaborative research effort.
 
