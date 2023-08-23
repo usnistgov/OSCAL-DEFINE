@@ -100,8 +100,7 @@ section.code pre {
 
 section.code ul,
 section.code p,
-section.code h2,
-section.code li {
+section.code h2 {
     width: 60%;
     text-align: left;
 }
