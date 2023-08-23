@@ -116,6 +116,25 @@ section.code blockquote p {
     width: 60%;
 }
 
+section.figure ul,
+section.figure li {
+    width: 40%;
+    text-align: left;
+}
+
+section.figure img {
+    border: 2px solid #000a61;
+    max-width: 50%;
+    max-height: 75%;
+    float: right;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+
+
+
 section.reference:last-child a {
     font-size: .5em;
     font-style: italic;
