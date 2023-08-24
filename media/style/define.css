@@ -147,7 +147,10 @@ section.figure img {
     top: 25%;
 }
 
-
+section.fill img {
+    min-height: 500px;
+    object-fit: contain;
+}
 
 
 section.reference:last-child a {
@@ -157,6 +160,6 @@ section.reference:last-child a {
     top: 675px;
 }
 
-:root {
+:root {    
     
 }

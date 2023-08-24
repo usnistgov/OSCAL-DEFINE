@@ -87,6 +87,7 @@ Sample:
 
 `<!-- _paginate: skip -->` - Skip page number for the current slide.
 
+`<!-- _class: fill -->` - The image on the slide will fill the slide area.
 
 ## Producing Presentations
 
