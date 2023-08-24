@@ -25,6 +25,22 @@ section.topic {
     background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/section.png?raw=true");
 }
 
+section.full-screen {
+    background-image: none;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.full-screen img {
+    max-width: 100%;
+    max-height: 700px;
+    margin-top: 0px;
+    margin: auto;
+    padding: 0px;
+    display: block;
+    object-fit: contain;
+}
 
 
 section.topic h1 {
