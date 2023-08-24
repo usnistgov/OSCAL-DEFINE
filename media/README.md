@@ -91,16 +91,14 @@ Sample:
 
 ## Producing Presentations
 
-
 ```sh
+cd meetings-2023
 export OUTPUT_DIR=/Volumes/DEFINE
-export DOC_DIR=meetings-2023
+export DOC_DIR=.
 export DOC_NAME=define-2023-08-17
-export THEME_DIR=media/style
+export THEME_DIR=../media/style
 export THEME_NAME=define
 marp ${DOC_DIR}/${DOC_NAME}.md --allow-local-files --theme ${THEME_NAME} --theme-set ${THEME_DIR} -o ${OUTPUT_DIR}/${DOC_NAME}.pptx
 marp ${DOC_DIR}/${DOC_NAME}.md --allow-local-files --theme ${THEME_NAME} --theme-set ${THEME_DIR} -o ${OUTPUT_DIR}/${DOC_NAME}.html
 marp ${DOC_DIR}/${DOC_NAME}.md --allow-local-files --theme ${THEME_NAME} --theme-set ${THEME_DIR} -o ${OUTPUT_DIR}/${DOC_NAME}.pdf
 ```
-
-
