@@ -6,6 +6,26 @@
     border: 1px solid #cc0000;
 } */
 
+section.intro.disclaimer h3 {
+    position: absolute;
+    font-size: 3em;
+    top: 485px;
+    left : 0px;
+    padding-left: 25px;
+    width: 100%;
+    text-align: left;
+    background-color: #feb420;
+    color: #cc0000;
+}
+
+section.disclaimer h3 {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    background-color: #feb420;
+    color: #cc0000;
+}
+
 section {
     background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/background.png?raw=true");
     background-repeat: no-repeat;
